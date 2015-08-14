@@ -21,5 +21,9 @@ module RoverApp
       end
     end
 
+    def hash
+      [@x_coordinate, @y_coordinate, @direction].hash
+    end
+
   end
 end
