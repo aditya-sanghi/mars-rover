@@ -12,4 +12,4 @@ RSpec.configure do |config|
   end
 end
 
-require 'mars_rover_app'
+require 'rover_app'
