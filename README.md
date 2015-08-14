@@ -24,14 +24,14 @@ The output for each rover should be its final co-ordinates and heading.
 ##INPUT AND OUTPUT:
 
 ###Test Input:
-5 5
-1 2 N
-LMLMLMLMM
-3 3 E
-MMRMMRMRRM
+5 5\s\s
+1 2 N\s\s
+LMLMLMLMM\s\s
+3 3 E\s\s
+MMRMMRMRRM\s\s
 
 ###Expected Output:
-1 3 N
+1 3 N\s\s
 5 1 E
 
 ##Setup
