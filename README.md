@@ -41,7 +41,7 @@ MMRMMRMRRM
 
 5 1 E
 
-##Setup
+##SETUP
 
 To use this project as a codebase simply clone the project to your local folder. Use the following steps:
 
@@ -50,7 +50,7 @@ To use this project as a codebase simply clone the project to your local folder.
 3. `cd desired_directory`
 4. `git clone git@github.com:aditya-sanghi/mars-rover.git`
 
-##Tests
+##TESTS
 
 Download the rspecs gem to run tests on the code in the lib folder
 Go to terminal and type: `Rake`
