@@ -9,7 +9,7 @@ module RoverApp
       @direction = direction
     end
 
-    def eql(other_position)
+    def eql?(other_position)
       self.==(other_position)
     end
 
