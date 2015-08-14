@@ -14,7 +14,7 @@ module RoverApp
     end
 
     def ==(other_position)
-      if @x_coordinate == other_position.x_coordinate && @y_coordinate == other_position.y_coordinate && @direction == other_position.direction
+      if other_position.is_a?(self.class) && @x_coordinate == other_position.x_coordinate && @y_coordinate == other_position.y_coordinate && @direction == other_position.direction
         true
       else
         false
