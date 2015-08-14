@@ -29,12 +29,6 @@ module RoverApp
         expect(position_1).to_not eq(position_2)
       end
 
-      it 'should check for junk values' do
-        position_1 = Position.new(1, 1, :N)
-        position_2 = []
-        expect(position_1).to_not eq(position_2)
-      end
-
       it 'should return positions with same x y coordinates and direction as having same hash values' do
         position_1 = Position.new(1, 1, :N)
         position_2 = Position.new(1, 1, :N)
