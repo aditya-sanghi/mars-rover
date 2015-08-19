@@ -1,5 +1,6 @@
 module RoverApp
 
+  #job of class is to represent the coordinates and direction on the rectangular grid
   class Position
     attr_reader :x_coordinate, :y_coordinate, :direction
 
